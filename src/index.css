@@ -76,3 +76,16 @@ body {
   font-size: 12px;
   color: #2B283A;
 }
+
+
+/* Jokes */
+
+.joke {
+  display:block;
+  justify-content: center;
+  align-items: center;
+}
+
+.joke > h3 , p {
+  max-width: 350px;
+}
