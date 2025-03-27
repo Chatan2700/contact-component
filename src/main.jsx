@@ -6,6 +6,7 @@ import JokeApp from './JokeApp.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <JokeApp />
+    <App />
+    {/* <JokeApp /> */}
   </StrictMode>,
 )
