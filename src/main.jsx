@@ -5,12 +5,14 @@ import App from './App.jsx'
 import JokeApp from './JokeApp.jsx'
 import StateApp from './StateApp.jsx'
 import ComplexStateApp from './components/ComplexStateApp.jsx'
+import Forms from './Forms.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     {/* <App /> */}
     {/* <JokeApp /> */}
     {/* <StateApp /> */}
-    {<ComplexStateApp />}
+    {/* {<ComplexStateApp />} */}
+    {<Forms />}
   </StrictMode>,
 )

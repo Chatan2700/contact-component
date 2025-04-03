@@ -152,13 +152,14 @@ button {
   width: 100%;
   max-width: 300px;
   background-color: transparent;
-  padding: 1rem;
+  padding: 0.5rem;
+  margin-top: 20px;
   color: black;
   border: 2px solid black;
-  border-radius: 50px;
+  border-radius: 5px;
   cursor: pointer;
   font-family: 'Karla', sans-serif;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 button:hover {
@@ -175,3 +176,4 @@ p {
   font-size: 2rem;
   color: black;
 }
+
