@@ -4,10 +4,11 @@ import jokesData from './jokesData'
 
 const JokeApp = () => {
 
-  console.log(jokesData)
+  // console.log(jokesData)
 
   const jokes = jokesData.map((joke) => {
-    return <Joke setup={joke.setup} punchline={joke.punchline} />
+    // console.log(joke)
+    return <Joke key={joke.uuid} setup={joke.setup} punchline={joke.punchline} />
   })
 
   return (

@@ -1,15 +1,24 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 
 const Joke = (props) => {
-  console.log(props)
+
+  const [isShown, setIsShown] = useState(false)
+
+  function handleToggleView() {
+    setIsShown(prevState => !prevState)
+  }
+
+  console.log(props.setup, isShown)
+
   return (
     <>
       <div className="joke">
-        <h3>{props.setup}</h3>
-        {props.punchline ? <p>{props.punchline}</p> : ''}
+        {props.setup && <h3 id='props'>{props.setup}</h3>}
+        {isShown && <p>{props.punchline}</p>}
       </div>
       <hr />
+      <button onClick={handleToggleView}>Toggle view</button>
     </>
 
   )
