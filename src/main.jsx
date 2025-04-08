@@ -7,6 +7,7 @@ import StateApp from './StateApp.jsx'
 import ComplexStateApp from './components/ComplexStateApp.jsx'
 import Forms from './Forms.jsx'
 import ConditionalRend from './ConditionalRend.jsx'
+import PropStateApp from './PropStateApp.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -15,6 +16,7 @@ createRoot(document.getElementById('root')).render(
     {/* <StateApp /> */}
     {/* {<ComplexStateApp />} */}
     {/* {<Forms />} */}
-    {<ConditionalRend />}
+    {/* {<ConditionalRend />} */}
+    <PropStateApp />
   </StrictMode>,
 )
